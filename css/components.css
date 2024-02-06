@@ -1,0 +1,102 @@
+.top-box {
+  background-image: url('/landing//images/background.png');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.top-box h1, p, a {
+  color: white;
+  margin: 20px;
+}
+
+.container a {
+  background-color: rgb(102, 208, 144);
+  padding: 15px 30px;
+  border-radius: 25px;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.container a:hover {
+  background-color: rgba(102, 208, 144, 0.801);
+}
+
+.container p {
+  font-size: larger;
+  color: rgb(163, 163, 163);
+}
+
+.middle-box h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.all-cards p {
+  color: rgb(152, 152, 152);
+}
+
+.all-cards .card {
+  border: 1px solid rgb(155, 155, 155,0.5);
+  box-shadow: 1px 1px 1px rgb(179, 179, 179,0.4);
+  width: 250px;
+  height: 300px;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.card .img {
+  width: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  background-color: rgb(65, 61, 61);
+  color: rgb(149, 149, 149);
+  text-align: center;
+  font-size: smaller;
+  font-weight: 100;
+  height: 200px;
+}
+
+.footer-socials {
+  text-align: center;
+  display: inline-flex;
+  list-style: none;
+}
+
+.footer-socials li {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.footer a {
+  color: rgb(102, 208, 144);
+}
+
+.footer a:hover {
+  color: green;
+}
+
+.footer h3 {
+  margin-top: 15px;
+  font-weight: lighter;
+}
+
+.fa-solid {
+  color: rgba(220, 3, 3, 0.911);
+}
